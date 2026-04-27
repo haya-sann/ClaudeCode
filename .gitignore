@@ -1,0 +1,32 @@
+# 依存関係
+node_modules/
+vendor/
+
+# ビルド成果物
+dist/
+build/
+out/
+
+# 環境変数・機密情報
+.env
+.env.local
+.env.*.local
+
+# ログ
+*.log
+npm-debug.log*
+
+# OS 生成ファイル
+.DS_Store
+Thumbs.db
+
+# エディタ設定
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# キャッシュ
+.cache/
+.tmp/
+tmp/
